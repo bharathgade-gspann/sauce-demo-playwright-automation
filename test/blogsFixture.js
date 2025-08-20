@@ -5,11 +5,12 @@ import { blogsPage } from '../pages/blogsPage'
 
 
 export const test = base.extend({
-      blogsPage: async ({ page }, use) => {
-        await use(new blogsPage(page))//call to test
+  blogspage: async ({ page }, use) => {
+    await use(new blogsPage(page))//call to test
 
-    },
+
+  }
 
 })
 
- export{expect}
+export{ expect }
