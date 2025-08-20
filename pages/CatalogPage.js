@@ -1,4 +1,5 @@
-const { expect } = require('@playwright/test');
+// Page Object Model for Catalog Page
+// Author: Aman Kansal
 
 class CatalogPage {
   constructor(page) {
