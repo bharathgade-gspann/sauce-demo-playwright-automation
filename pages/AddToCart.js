@@ -1,6 +1,9 @@
+// Page Object Model for AddToCartProductPage
+// Author: Aman Kansal
+
 const { expect } = require('@playwright/test');
 
-class ProductPage {
+class AddToCartProductPage {
   constructor(page) {
     this.page = page;
     this.productTitle = page.locator('h1[itemprop="name"]');

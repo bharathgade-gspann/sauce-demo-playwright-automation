@@ -1,3 +1,6 @@
+// Page Object Model for ProductPage
+// Author: Aman Kansal
+
 const { expect } = require('@playwright/test');
 
 class ProductPage {

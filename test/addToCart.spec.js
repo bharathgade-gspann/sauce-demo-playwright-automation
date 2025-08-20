@@ -1,3 +1,6 @@
+// Test Spec file for AddToCartProductPage
+// Author: Aman Kansal
+
 const { test } = require('@playwright/test');
 const { HomePage } = require('../pages/HomePage');
 const { CatalogPage } = require('../pages/CatalogPage');

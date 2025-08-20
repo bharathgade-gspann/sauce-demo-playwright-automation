@@ -1,3 +1,6 @@
+// test spec for Home Page
+// Author: Aman Kansal
+
 const { test } = require('@playwright/test');
 const { HomePage } = require('../pages/HomePage');
 const { CatalogPage } = require('../pages/CatalogPage');
