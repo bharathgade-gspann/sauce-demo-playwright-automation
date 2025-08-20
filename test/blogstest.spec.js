@@ -1,15 +1,16 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './Fixture.js';
 import { blogsPage } from '../pages/blogsPage';
+//  import {test} from './Fixture'
 
-test.only('test1', async ({ blogspage }) => {
+test.only('test1', async ({ blogsPage,page }) => {
 
-    await blogspage.launchToSauceDemo()
-    await blogspage.clickonBlogslink()
+    await blogsPage.launchToSauceDemo()
+    await blogsPage.clickonBlogslink()
     await expect(page).toHaveURL("https://sauce-demo.myshopify.com/blogs/news")
 })
 
 
-test('test2',async({blogspage})=>
-{
+// test('test2',async({blogspage})=>
+// {
 
-})
+// })
