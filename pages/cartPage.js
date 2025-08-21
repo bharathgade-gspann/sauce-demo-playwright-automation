@@ -7,6 +7,8 @@ export class CartPage {
         this.emptyCardMessage = page.locator('.empty')
         this.greyJacketImageLoc = page.locator("//div[@class='four columns alpha']//img")
         this.addToCartBtn = page.locator("//input[@id='add']")
+        this.noirJacketImgLoc = page.locator("//a[contains(@href,'noir-jacket')]")
+
 
 
 
@@ -26,6 +28,12 @@ export class CartPage {
     async clickAddToCartBtn(){
         await this.addToCartBtn.click()
     }
+
+    async clickNoirJacketImg(){
+        await this.noirJacketImgLoc.click()
+    }
+
+
 
     // async isGreyShirtAddedToCart(){
     //    await this.clickCartIcon()

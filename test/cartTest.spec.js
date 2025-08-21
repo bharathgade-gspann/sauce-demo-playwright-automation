@@ -13,8 +13,14 @@ test('is the grey shirt added to the cart',async({CartPage,homePage,page})=>{
     await CartPage.clickCartIcon()
     await page.reload()
     await CartPage.clickCartIcon()
-    //await expect(page.locator("//a[@href='/collections/all/products/grey-jacket']")).toHaveText(" Grey jacket - Grey jacket- Grey jacket")
     const text = await page.locator("//a[@href='/collections/all/products/grey-jacket']").textContent();
     await expect(text.replace(/\s+/g, ' ').trim()).toContain("Grey jacket - Grey jacket - Grey jacket");
+
+})
+
+test('noir jacket image is visible after clicking', async({homePage,CartPage,page})=>{
+     await homePage.navigateToHome()
+     await CartPage.clickNoirJacketImg()
+     await expect(page).toHaveURL("https://sauce-demo.myshopify.com/collections/frontpage/products/noir-jacket")
 
 })
