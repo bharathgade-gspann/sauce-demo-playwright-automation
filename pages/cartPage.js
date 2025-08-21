@@ -8,12 +8,10 @@ export class CartPage {
         this.greyJacketImageLoc = page.locator("//div[@class='four columns alpha']//img")
         this.addToCartBtn = page.locator("//input[@id='add']")
         this.noirJacketImgLoc = page.locator("//a[contains(@href,'noir-jacket')]")
-
-
-
-
-
+        this.cartProductQtyLoc = page.locator("input[name='updates[]']")
+        this.removeBtnLoc = page.locator('.removeLine')
     }
+
 
     async clickCartIcon() {
         await this.cartIconLoc.click()
@@ -31,6 +29,14 @@ export class CartPage {
 
     async clickNoirJacketImg(){
         await this.noirJacketImgLoc.click()
+    }
+
+    async getProductQuantityCount(){
+        return await this.cartProductQtyLoc.inputValue()
+    }
+
+    async clickRemoveProductFromCartBtn(){
+        await this.removeBtnLoc.click()
     }
 
 
