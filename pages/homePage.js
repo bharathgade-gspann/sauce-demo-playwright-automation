@@ -6,7 +6,7 @@ export class HomePage {
     this.searchBox = page.locator('#search-field');
     this.searchResults = page.locator('.product-grid h3');
     this.body = page.locator('body');
-    this.noResultsMessage = page.locator('text=/No results/i');
+     this.noSearchMessage = page.locator('text=No search performed');
   }
 
   async navigateToHome() {
@@ -30,7 +30,12 @@ export class HomePage {
     return await this.searchResults.count() > 0;
   }
 
-  async isNoResultsVisible() {
-    return await this.noResultsMessage.isVisible();
+  async isNoSearchMessageVisible() {
+    try {
+      await this.noSearchMessage.waitFor({ state: 'visible', timeout: 3000 });
+      return true;
+    } catch {
+      return false;
+    }
   }
 }
