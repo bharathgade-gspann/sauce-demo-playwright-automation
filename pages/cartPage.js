@@ -1,4 +1,7 @@
 //Page Object Model for Cart functionality page 
+
+import { asyncWrapProviders } from "async_hooks"
+
 // done by Rohan Singh
 export class CartPage {
     constructor(page) {
@@ -10,6 +13,8 @@ export class CartPage {
         this.noirJacketImgLoc = page.locator("//a[contains(@href,'noir-jacket')]")
         this.cartProductQtyLoc = page.locator("input[name='updates[]']")
         this.removeBtnLoc = page.locator('.removeLine')
+        this.checkOutBtnLoc = page.locator("//input[@value='Check Out']")
+        this.cartQtyCountLoc = page.locator('#cart-target-desktop')
     }
 
 
@@ -39,14 +44,12 @@ export class CartPage {
         await this.removeBtnLoc.click()
     }
 
+    async clickCheckOutBtn(){
+        await this.checkOutBtnLoc.click()
+    }
 
-
-    // async isGreyShirtAddedToCart(){
-    //    await this.clickCartIcon()
-    //     return await 
-
-
-
-    // }
+    async getCartQtyCount(){
+        return await this.cartQtyCountLoc.count()
+    }
 
 }
