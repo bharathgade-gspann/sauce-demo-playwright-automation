@@ -46,15 +46,7 @@ test.describe('Shopify Blog Tests', () => {
         await blogspage.openShopifyLink()
         await expect(page).toHaveURL("https://www.shopify.com/in")
     });
-
-    // test('Verify Admin link redirects correctly', async ({ blogspage,page }) => {
-    //     await blogspage.openAdminLink()
-    //      await expect(page).toHaveURL("https://accounts.shopify.com/lookup?rid=572dc5fe-c2a0-471c-944c-d6b638dadea3&verify=1755703023-867KEV0FUo1hnEnWTGmFFDI%2Bt43E4cbVI9fue%2FJ9xe8%3D")
-    //    // await expect(page.getByRole('link', { name: 'Log in to Shopify' })).isDisplayed()
-    // });
-
-
-
+    
     test('Verify Sellonline link redirects correctly', async ({ blogspage, page }) => {
         await blogspage.OpenSellOnlineLink()
         await expect(page).toHaveURL("https://www.shopify.com/in/online")
@@ -65,5 +57,6 @@ test.describe('Shopify Blog Tests', () => {
         await expect(page).toHaveURL("https://sauce-demo.myshopify.com/blogs/news")
     });
 
+   
 
 });

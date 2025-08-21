@@ -37,7 +37,7 @@ export default defineConfig({
     viewport : null,
     headless : false,
     launchOptions: {
-          slowMo: 2000
+          slowMo: 1000
         }
   },
 
