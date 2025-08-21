@@ -1,4 +1,4 @@
-import { test, expect } from './blogsFixture.js';
+import { test, expect } from './fixtures.js';
 
 
 test.describe('Shopify Blog Tests', () => {
