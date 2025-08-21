@@ -1,16 +1,14 @@
-// test spec file for Catalog Page
+// test spec file for Catalog Page Products
 // Author: Aman Kansal
 
 const { test } = require('@playwright/test');
-const { HomePage } = require('../pages/HomePage');
 const { CatalogPage } = require('../pages/CatalogPage');
 
 test.describe('Catalog Page Products', () => {
   test('Catalog page should list all expected products', async ({ page }) => {
-    const homePage = new HomePage(page);
     const catalogPage = new CatalogPage(page);
-    await homePage.goto();
-    await homePage.clickCatalog();
+    await catalogPage.goto();
+    await catalogPage.clickCatalog();
     const expectedProducts = [
       'Black heels',
       'Bronze sandals',
