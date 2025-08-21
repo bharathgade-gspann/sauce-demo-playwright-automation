@@ -1,3 +1,6 @@
+// Page Object Model for BlogsPage
+// Author: Bharath Gade
+
 export class blogsPage {
     constructor(page) {
         this.page = page
@@ -12,6 +15,7 @@ export class blogsPage {
         this.adminLink = page.getByRole('link', { name: 'admin area' })
         this.sellOnlineLink = page.getByRole('link', { name: 'sell online' })
         this.backtoPost = page.getByRole('link', { name: 'Back to posts' })
+
     }
 
 
@@ -45,11 +49,7 @@ export class blogsPage {
     async openCartSoftwareLink() {
         return this.cartSoftwareLink.click()
     }
-
-    async openAdminLink() {
-        return this.adminLink.click()
-    }
-
+    
     async openPinterestSaveButton() {
         return this.pinterestSaveButton.click()
     }

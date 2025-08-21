@@ -5,7 +5,10 @@ import { HomePage } from '../pages/homePage'
 import { AboutUsPage } from '../pages/aboutUsPage'
 import { ProductPage } from '../pages/productPage'
 import { FrontPage } from '../pages/frontPage'
-import { CatalogPage } from '../pages/CatalogPage'; 
+import { CatalogPage } from '../pages/CatalogPage';
+import { blogsPage } from '../pages/blogsPage';
+import { CartPage } from '../pages/cartPage';
+
 
 export const test = base.extend({
   loginPage: async ({ page }, use) => {
@@ -37,6 +40,12 @@ export const test = base.extend({
   catalogPage: async ({ page }, use) => {
     await use(new CatalogPage(page));
   },
-});
+
+    CartPage: async ({ page }, use) => {
+    await use(new CartPage(page))
+  }
+
+},
+);
 
 export { expect } from '@playwright/test';
