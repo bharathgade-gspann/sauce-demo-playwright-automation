@@ -13,7 +13,7 @@ test('is the grey shirt added to the cart', async ({ CartPage, homePage, page })
     await CartPage.clickCartIcon()
     await page.reload()
     await CartPage.clickCartIcon()
-    //  const text = await page.getByText('                     Grey jacket - Grey jacket                                                            - Grey jacket                                                        ').textContent();
+                                                                                                           
     const text = await page.getByText('Grey jacket - Grey jacket - Grey jacket').textContent();
 
     await expect(text.replace(/\s+/g, ' ').trim()).toContain("Grey jacket - Grey jacket - Grey jacket");
