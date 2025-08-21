@@ -17,6 +17,10 @@ class CatalogPage {
     return await this.productTitles.allTextContents();
   }
 
+   async clickProductByName(productName) {
+    await this.page.locator(`.product-grid a:has-text("${productName}")`).click();
+  }
+
   async verifyProducts(expectedProducts) {
     const products = await this.getProductNames();
     expect(products).toEqual(expectedProducts);

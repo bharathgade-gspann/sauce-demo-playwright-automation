@@ -9,6 +9,8 @@ class ProductPage {
     this.productTitle = page.locator('h1[itemprop="name"]');
     this.productPrice = page.locator('#product-price .product-price');
     this.productDescription = page.locator('#product-info [itemprop="description"]');
+    this.sizeDropdown = page.locator('#product-select-option-0');
+    this.colorDropdown = page.locator('#product-select-option-1');
   }
 
   async verifyProductDetails(expectedName, expectedPrice) {
@@ -16,6 +18,12 @@ class ProductPage {
     await expect(this.productTitle).toHaveText(expectedName);
     await expect(this.productPrice).toHaveText(expectedPrice);
     await expect(this.productDescription).toBeVisible();
+  }
+
+   async verifyDropdownHasValues(dropdown, dropdownName) {
+    const options = await dropdown.locator('option').allTextContents();
+    expect(options.length).toBeGreaterThan(0);
+    console.log(`${dropdownName} options:`, options);
   }
 }
 
