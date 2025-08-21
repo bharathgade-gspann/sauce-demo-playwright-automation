@@ -1,12 +1,10 @@
 // test spec for Product Social Media Links visibility
 // Author: Aman Kansal
 
-const { test, expect } = require('@playwright/test');
-const { CatalogPage } = require('../pages/CatalogPage');
+import {test} from './fixtures.js';
 
 test.describe('Product Social Media Links', () => {
-  test('All social media icons should be visible on product page', async ({ page }) => {
-    const catalogPage = new CatalogPage(page);
+  test('All social media icons should be visible on product page', async ({ catalogPage }) => {
     await catalogPage.goto();
     await catalogPage.clickCatalog();
     await catalogPage.clickProductByName('Black heels');

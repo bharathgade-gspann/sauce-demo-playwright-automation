@@ -1,12 +1,10 @@
 // test spec file for Product Details Page
 // Author: Aman Kansal
 
-const { test } = require('@playwright/test');
-const { CatalogPage } = require('../pages/CatalogPage');
+import {test} from './fixtures.js';
 
 test.describe('Product Details Page', () => {
-  test('User should see correct product info when clicking on Black heels', async ({ page }) => {
-    const catalogPage = new CatalogPage(page);
+  test('User should see correct product info when clicking on Black heels', async ({ catalogPage }) => {
     await catalogPage.goto();
     await catalogPage.clickCatalog();
     await page.locator('#product-1').click();

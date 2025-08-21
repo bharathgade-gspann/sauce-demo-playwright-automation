@@ -1,12 +1,10 @@
 // test spec file for Catalog Page Products
 // Author: Aman Kansal
 
-const { test } = require('@playwright/test');
-const { CatalogPage } = require('../pages/CatalogPage');
+import {test} from './fixtures.js';
 
 test.describe('Catalog Page Products', () => {
-  test('Catalog page should list all expected products', async ({ page }) => {
-    const catalogPage = new CatalogPage(page);
+  test('Catalog page should list all expected products', async ({ catalogPage }) => {
     await catalogPage.goto();
     await catalogPage.clickCatalog();
     const expectedProducts = [
