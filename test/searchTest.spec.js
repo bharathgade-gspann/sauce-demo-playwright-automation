@@ -1,4 +1,4 @@
-import { test, expect } from './pageFactory.js';
+import { test, expect } from './fixtures.js';
 
 test.beforeEach(async ({ homePage }) => {
   await homePage.navigateToHome();
