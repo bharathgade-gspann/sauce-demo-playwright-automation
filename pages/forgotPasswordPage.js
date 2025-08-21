@@ -7,7 +7,7 @@ export class ForgotPasswordPage {
     this.cancelLoc = page.getByRole('link', { name: 'Cancel' });
   }
 
-  async isResetPassHeadingVisible() {    // ✅ fixed method name
+  async isResetPassHeadingVisible() {    
     return await this.resetPassHeadingLoc.isVisible();
   }
 
