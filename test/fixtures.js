@@ -8,6 +8,7 @@ import { FrontPage } from '../pages/frontPage'
 import { CatalogPage } from '../pages/CatalogPage';
 import { blogsPage } from '../pages/blogsPage';
 import { CartPage } from '../pages/cartPage';
+import { FootersPage } from '../pages/footerPage';
 
 
 export const test = base.extend({
@@ -41,8 +42,12 @@ export const test = base.extend({
     await use(new CatalogPage(page));
   },
 
-    CartPage: async ({ page }, use) => {
+  CartPage: async ({ page }, use) => {
     await use(new CartPage(page))
+  },
+  footerpage: async ({ page }, use) => {
+    await use(new FootersPage(page));
+
   }
 
 },
