@@ -5,9 +5,9 @@ import { HomePage } from '../pages/homePage'
 import { AboutUsPage } from '../pages/aboutUsPage'
 import { ProductPage } from '../pages/productPage'
 import { FrontPage } from '../pages/frontPage'
+import { blogsPage } from '../pages/blogsPage';
 import { CartPage } from '../pages/cartPage';
 //import { use } from 'react';
-
 export const test = base.extend({
   loginPage: async ({ page }, use) => {
     const loginPage = new LoginPage(page);
