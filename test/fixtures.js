@@ -1,10 +1,10 @@
 import { test as base } from '@playwright/test';
 import { LoginPage } from '../pages/loginPage';
-import {ForgotPasswordPage} from '../pages/forgotPasswordPage'
-import {HomePage} from '../pages/homePage'
-import {AboutUsPage} from '../pages/aboutUsPage'
-import {ProductPage} from '../pages/productPage'
-import {FrontPage} from '../pages/frontPage'
+import { ForgotPasswordPage } from '../pages/forgotPasswordPage'
+import { HomePage } from '../pages/homePage'
+import { AboutUsPage } from '../pages/aboutUsPage'
+import { ProductPage } from '../pages/productPage'
+import { FrontPage } from '../pages/frontPage'
 
 export const test = base.extend({
   loginPage: async ({ page }, use) => {
@@ -28,6 +28,12 @@ export const test = base.extend({
   frontPage: async ({ page }, use) => {
     await use(new FrontPage(page));
   },
+
+  blogspage: async ({ page }, use) => {
+    await use(new blogsPage(page))//call to test
+
+
+  }
 });
 
 export { expect } from '@playwright/test';
