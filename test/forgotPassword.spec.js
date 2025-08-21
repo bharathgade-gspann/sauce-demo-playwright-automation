@@ -1,4 +1,4 @@
-import { test, expect } from './pageFactory.js';
+import { test, expect } from './fixtures.js';
 
 test('Login page heading is visible', async ({ loginPage }) => {
   const isVisible = await loginPage.isLoginHeadingVisible();
