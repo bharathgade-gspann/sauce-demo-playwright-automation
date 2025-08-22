@@ -1,10 +1,10 @@
 // test spec for Product Social Media Links visibility
 // Author: Aman Kansal
 
-import {test} from './fixtures.js';
+import { test, expect } from './fixtures.js';
 
 test.describe('Product Social Media Links', () => {
-  test('All social media icons should be visible on product page', async ({ catalogPage }) => {
+  test('All social media icons should be visible on product page', async ({ page, catalogPage }) => {
     await catalogPage.goto();
     await catalogPage.clickCatalog();
     await catalogPage.clickProductByName('Black heels');
