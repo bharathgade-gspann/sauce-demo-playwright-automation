@@ -5,7 +5,7 @@ test.beforeEach(async ({ homePage }) => {
   await homePage.isPageLoaded();
 });
 
-test('Search with blank input should show No search message', async ({ homePage }) => {
+test('Search with blank input should show No search message @Aastha', async ({ homePage }) => {
   await homePage.searchFor(""); 
 
   const hasResults = await homePage.hasResults();
@@ -19,7 +19,7 @@ test('Search with blank input should show No search message', async ({ homePage 
   expect(noSearchVisible).toBeTruthy();
 });
 
-test('Search should handle SQL injection payload safely', async ({ homePage }) => {
+test('Search should handle SQL injection payload safely @Aastha', async ({ homePage }) => {
   const payload = "Grey Jacket'; DROP TABLE Products;--";
   await homePage.searchFor(payload);
 

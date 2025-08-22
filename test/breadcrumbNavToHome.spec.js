@@ -1,6 +1,6 @@
 import { test, expect } from './fixtures.js';
 
-test('Navigate from About Us page to Home page via breadcrumb', async ({ aboutUsPage, homePage, page }) => {
+test('Navigate from About Us page to Home page via breadcrumb @Aastha', async ({ aboutUsPage, homePage, page }) => {
   await aboutUsPage.navigateToAboutUs();
   await aboutUsPage.clickHomeBreadcrumb();
   await expect(page).toHaveURL(homePage.homeUrl);
@@ -8,7 +8,7 @@ test('Navigate from About Us page to Home page via breadcrumb', async ({ aboutUs
   expect(title).toBe(homePage.pageTitle);
 });
 
-test('Breadcrumb navigation from product -> frontpage -> home', async ({ productPage, frontPage, homePage, page }) => {
+test('Breadcrumb navigation from product -> frontpage -> home @Aastha', async ({ productPage, frontPage, homePage, page }) => {
   await productPage.navigateToProduct();
   await productPage.clickFrontPageBreadcrumb();
   await expect(page).toHaveURL(frontPage.url);
