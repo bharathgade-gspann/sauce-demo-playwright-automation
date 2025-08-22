@@ -4,7 +4,7 @@
 import {test} from './fixtures.js';
 
 test.describe('Product Details Page', () => {
-  test('User should see correct product info when clicking on Black heels', async ({ catalogPage }) => {
+  test('User should see correct product info when clicking on Black heels', async ({ page, catalogPage }) => {
     await catalogPage.goto();
     await catalogPage.clickCatalog();
     await page.locator('#product-1').click();
