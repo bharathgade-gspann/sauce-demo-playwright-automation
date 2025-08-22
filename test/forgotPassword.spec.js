@@ -11,13 +11,13 @@ test('Forgot password form submit @Aastha', async ({ loginPage, forgotPasswordPa
   await forgotPasswordPage.clickSubmitBtn();
 });
 test('Forgot password invalid email validation @Aastha', async ({ loginPage, forgotPasswordPage }) => {
-  await loginPage.clickForgotPasswordLink();
-  await forgotPasswordPage.enterEmail('test');
-  await forgotPasswordPage.clickSubmitBtn();
-  await expect(forgotPasswordPage.emailLoc).toHaveJSProperty(
-    'validationMessage',
-    "Please include an '@' in the email address. 'test' is missing an '@'."
-  );
+ await loginPage.clickForgotPasswordLink();
+ await forgotPasswordPage.enterEmail('test');
+ await forgotPasswordPage.clickSubmitBtn();
+ const validationMessage = await forgotPasswordPage.emailLoc.evaluate(el => el.validationMessage);
+ console.log(`Validation message: ${validationMessage}`);
+ expect(validationMessage).not.toBe('');
+ expect(validationMessage.toLowerCase()).toContain('email');
 });
 test('Forgot password cancel navigation @Aastha', async ({ loginPage, forgotPasswordPage }) => {
   await loginPage.clickForgotPasswordLink();

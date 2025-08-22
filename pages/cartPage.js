@@ -1,4 +1,7 @@
 //Page Object Model for Cart functionality page 
+
+import { asyncWrapProviders } from "async_hooks"
+
 // done by Rohan Singh
 export class CartPage {
     constructor(page) {
@@ -8,12 +11,12 @@ export class CartPage {
         this.greyJacketImageLoc = page.locator("//div[@class='four columns alpha']//img")
         this.addToCartBtn = page.locator("//input[@id='add']")
         this.noirJacketImgLoc = page.locator("//a[contains(@href,'noir-jacket')]")
-
-
-
-
-
+        this.cartProductQtyLoc = page.locator("input[name='updates[]']")
+        this.removeBtnLoc = page.locator('.removeLine')
+        this.checkOutBtnLoc = page.locator("//input[@value='Check Out']")
+        this.cartQtyCountLoc = page.locator('#cart-target-desktop')
     }
+
 
     async clickCartIcon() {
         await this.cartIconLoc.click()
@@ -33,14 +36,20 @@ export class CartPage {
         await this.noirJacketImgLoc.click()
     }
 
+    async getProductQuantityCount(){
+        return await this.cartProductQtyLoc.inputValue()
+    }
 
+    async clickRemoveProductFromCartBtn(){
+        await this.removeBtnLoc.click()
+    }
 
-    // async isGreyShirtAddedToCart(){
-    //    await this.clickCartIcon()
-    //     return await 
+    async clickCheckOutBtn(){
+        await this.checkOutBtnLoc.click()
+    }
 
-
-
-    // }
+    async getCartQtyCount(){
+        return await this.cartQtyCountLoc.count()
+    }
 
 }
