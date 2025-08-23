@@ -20,6 +20,7 @@ class CatalogPage {
     this.addToCartButton = page.locator('#add');
     this.cartCount = page.locator('#cart-target-desktop');
     this.catalogLink = page.locator('ul#main-menu li a[href="/collections/all"]');
+    this.soldOutBadge = page.locator('.sold-out');
   }
 
   async verifyUrl() {
@@ -59,13 +60,24 @@ class CatalogPage {
     await expect(this.cartCount).toHaveText('(1)', { timeout: 10000 });
   }
 
-    async goto() {
+  async goto() {
     await this.page.goto('https://sauce-demo.myshopify.com/');
   }
 
   async clickCatalog() {
     await this.catalogLink.click();
   }
+
+  async isProductSoldOut(productName) {
+    const product = this.page.locator(`.product-grid a:has-text("${productName}") .sold-out`);
+    return await product.isVisible();
+  }
+
+  async verifySoldOutState() {
+    await expect(this.addToCartButton).toBeDisabled();
+    await expect(this.addToCartButton).toHaveValue('Sold Out');
+  }
+
 }
 
 module.exports = { CatalogPage };
