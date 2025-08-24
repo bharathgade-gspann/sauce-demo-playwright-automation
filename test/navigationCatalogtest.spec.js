@@ -6,12 +6,12 @@ test.describe('navigation catalog tests', () => {
         await navigationcatalogPage.navigate()
     });
 
-    test('Navigating to WhiteSandals', async ({navigationcatalogPage, page}) => {
+    test('Navigating to WhiteSandals', async ({ navigationcatalogPage, page }) => {
         await navigationcatalogPage.openWhiteSandals()
         await expect(page).toHaveURL("https://sauce-demo.myshopify.com/products/white-sandals")
 
     })
-    test(' navigating to gray jacket', async ({navigationcatalogPage, page}) => {
+    test(' navigating to gray jacket', async ({ navigationcatalogPage, page }) => {
         await navigationcatalogPage.openGreyJacket()
         await expect(page).toHaveURL("https://sauce-demo.myshopify.com/products/grey-jacket")
 
