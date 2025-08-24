@@ -13,33 +13,33 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  //timeout:40000,
+  timeout:40000,
   testDir: './test',
   /* Run tests in files in parallel */
-  fullyParallel: false,
+  fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 5 : 1,
+  workers: process.env.CI ? 5 : 5,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: 'allure-playwright',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-     trace: 'retain-on-failure',
-    
-    screenshot : 'only-on-failure',
+    trace: 'retain-on-failure',
+    actionTimeout: 70000,
+    screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    viewport : null,
-    headless : true,
+    viewport: null,
+    headless: true,
     launchOptions: {
-          slowMo: 2000
-        }
+      slowMo: 1000
+    }
   },
 
   /* Configure projects for major browsers */
@@ -51,19 +51,19 @@ export default defineConfig({
 
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'],channel:'firefox'},
+      use: { ...devices['Desktop Firefox'], channel: 'firefox' },
     },
 
-    // {
-    //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'],channel:'webkit'},
-    // },
+    {
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'],channel:'webkit'},
+    },
 
     /* Test against mobile viewports. */
-    {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'],channel:'chrome'},
-    },
+    // {
+    //   name: 'Mobile Chrome',
+    //   use: { ...devices['Pixel 5'], channel: 'chrome' },
+    // },
     // {
     //   name: 'Mobile Safari',
     //   use: { ...devices['iPhone 12'] },

@@ -1,0 +1,2 @@
+Size options: [ 'S', 'M', 'L' ]
+Color options: [ 'Red' ]

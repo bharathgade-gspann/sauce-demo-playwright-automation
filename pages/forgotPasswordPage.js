@@ -7,7 +7,7 @@ export class ForgotPasswordPage {
     this.cancelLoc = page.getByRole('link', { name: 'Cancel' });
   }
 
-  async isResetPassHeadingVisible() {    
+  async isResetPassHeadingVisible() {
     return await this.resetPassHeadingLoc.isVisible();
   }
 
@@ -18,7 +18,7 @@ export class ForgotPasswordPage {
   async clickSubmitBtn() {
     await this.submitLoc.click();
   }
-  
+
   async clickCancelBtn() {
     await this.cancelLoc.click();
   }
