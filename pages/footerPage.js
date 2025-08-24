@@ -1,3 +1,4 @@
+//Author name: G Sai Charan
 export class FootersPage {
     constructor(page) {
         this.page = page;

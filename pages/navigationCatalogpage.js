@@ -1,3 +1,4 @@
+//Author name: G Sai Charan
 import { expect } from '@playwright/test';
 export class navigationCatalogPage {
     constructor(page) {
