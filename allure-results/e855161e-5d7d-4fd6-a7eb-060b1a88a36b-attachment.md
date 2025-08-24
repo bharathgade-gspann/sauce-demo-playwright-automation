@@ -1,0 +1,1184 @@
+# Page snapshot
+
+```yaml
+- link "Skip to Content":
+  - /url: "#main"
+- banner:
+  - link "Shopify":
+    - /url: /in
+    - img "Shopify"
+  - navigation "Main":
+    - list:
+      - listitem:
+        - button "Solutions"
+        - text: Start
+        - list "Start":
+          - listitem:
+            - link "Start your business . Build your brand":
+              - /url: /in/start
+          - listitem:
+            - link "Create your website . Online store editor":
+              - /url: /in/website/builder
+          - listitem:
+            - 'link "External source: Customize your store . Store themes"':
+              - /url: https://themes.shopify.com/
+              - text: Customize your store . Store themes
+          - listitem:
+            - 'link "External source: Find business apps . Shopify app store"':
+              - /url: https://apps.shopify.com/
+              - text: Find business apps . Shopify app store
+          - listitem:
+            - link "Own your site domain . Domains & hosting":
+              - /url: /in/domains
+          - listitem:
+            - link "Explore free business tools . Tools to run your business":
+              - /url: /in/tools
+        - text: Sell
+        - list "Sell":
+          - listitem:
+            - link "Sell your products . Sell online or in person":
+              - /url: /in/sell
+          - listitem:
+            - link "Sell online . Grow your business online":
+              - /url: /in/online
+          - listitem:
+            - link "Sell across channels . Reach millions of shoppers and boost sales":
+              - /url: /in/channels
+          - listitem:
+            - link "Sell in person . Point of Sale (POS)":
+              - /url: /in/pos
+          - listitem:
+            - link "Sell globally . International sales":
+              - /url: /in/international
+          - listitem:
+            - link "Sell wholesale & direct . Business-to-business (B2B)":
+              - /url: /in/plus/solutions/b2b-ecommerce
+        - text: Market
+        - list "Market":
+          - listitem:
+            - link "Market your business . Reach & retain customers":
+              - /url: /in/marketing
+          - listitem:
+            - link "Market across social . Social media integrations":
+              - /url: /in/facebook-instagram
+          - listitem:
+            - link "Nurture customers . Shopify Email":
+              - /url: /in/email-marketing
+          - listitem:
+            - link "Know your audience . Gain customer insights":
+              - /url: /in/segmentation
+        - text: Manage
+        - list "Manage":
+          - listitem:
+            - link "Manage your business . Track sales, orders & analytics":
+              - /url: /in/manage
+          - listitem:
+            - link "Measure your performance . Analytics and Reporting":
+              - /url: /in/analytics
+          - listitem:
+            - link "Manage your stock & orders . Inventory & order management":
+              - /url: /in/orders
+        - list:
+          - listitem:
+            - 'link "External source: Shopify Developers . Build with Shopify''s powerful APIs"':
+              - /url: https://shopify.dev
+              - text: Shopify Developers . Build with Shopify's powerful APIs
+          - listitem:
+            - link "Plus . A commerce solution for growing digital brands":
+              - /url: /in/plus
+          - listitem:
+            - link "All Products . Explore all Shopify products & features":
+              - /url: /in/products
+      - listitem:
+        - link "Pricing":
+          - /url: /in/pricing
+      - listitem:
+        - button "Resources"
+        - text: Help and support
+        - list "Help and support":
+          - listitem:
+            - 'link "External source: Help and support . Get 24/7 support"':
+              - /url: https://help.shopify.com/en/
+              - text: Help and support . Get 24/7 support
+          - listitem:
+            - link "How-to guides . Read in-depth business guides":
+              - /url: /in/blog/topics/guides
+          - listitem:
+            - link "Shopify blog . Business strategy tips":
+              - /url: /in/blog
+        - text: Popular topics
+        - list "Popular topics":
+          - listitem:
+            - link "What is Shopify? . How our commerce platform works":
+              - /url: /in/blog/what-is-shopify
+          - listitem:
+            - link "Founder stories . Learn from successful merchants":
+              - /url: /in/blog/topics/founder-stories
+          - listitem:
+            - link "Branding . Build your brand from scratch":
+              - /url: /in/blog/how-to-build-a-brand
+          - listitem:
+            - link "Marketing . Build a marketing plan":
+              - /url: /in/blog/marketing-plan
+          - listitem:
+            - link "Ecommerce SEO . Improve your search ranking":
+              - /url: /in/blog/ecommerce-seo-beginners-guide
+          - listitem:
+            - link "Social media strategy . Turn social into sales":
+              - /url: /in/blog/topics/social-media-optimization
+          - listitem:
+            - link "Business growth . Scale your business":
+              - /url: /in/blog/how-to-scale-small-business
+        - text: Essential tools
+        - list "Essential tools":
+          - listitem:
+            - link "Logo maker .":
+              - /url: /in/tools/logo-maker
+          - listitem:
+            - 'link "External source: Stock photography ."':
+              - /url: https://www.shopify.com/stock-photos
+              - text: Stock photography .
+          - listitem:
+            - link "Business plan template .":
+              - /url: /in/blog/business-plan-template
+          - listitem:
+            - link "QR code generator .":
+              - /url: /in/tools/qr-code-generator
+      - listitem:
+        - link "Enterprise":
+          - /url: /in/enterprise
+      - listitem:
+        - button "What’s new"
+        - list:
+          - listitem:
+            - 'link "External source: Changelog . Your source for recent updates"':
+              - /url: https://changelog.shopify.com
+              - text: Changelog . Your source for recent updates
+          - listitem:
+            - 'link "External source: Newsroom . All company news and press releases"':
+              - /url: https://shopify.com/news
+              - text: Newsroom . All company news and press releases
+  - list:
+    - listitem:
+      - link "Log in":
+        - /url: /in/login?ui_locales=en-IN
+    - listitem:
+      - link "Start for free":
+        - /url: https://accounts.shopify.com/store-create?locale=en-IN&language=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Fin%2Fonline&signup_types%5B%5D=paid_trial_experience
+- main:
+  - heading "The world’s best online stores are built on Shopify Shopify" [level=1]:
+    - text: The world’s best online stores are built on
+    - img "Shopify"
+    - text: Shopify
+  - paragraph: With the highest-converting checkout and flexible options for every size of business, Shopify stores sell more products, lower your costs, and save you time.
+  - link "OffLimits (opens in a new tab)":
+    - /url: https://www.eatofflimits.com/
+    - img "eatofflimits.com"
+    - text: eatofflimits.com Headless
+  - link "Baboon to the Moon (opens in a new tab)":
+    - /url: https://baboontothemoon.com/
+    - img "baboontothemoon.com"
+    - text: baboontothemoon.com Headless
+  - link "Austin Motel (opens in a new tab)":
+    - /url: https://austinmotelstore.com/
+    - img "austinmotelstore.com"
+    - text: austinmotelstore.com Theme
+  - link "Atoms (opens in a new tab)":
+    - /url: https://atoms.com/
+    - img "atoms.com"
+    - text: atoms.com Headless
+  - link "OffLimits (opens in a new tab)":
+    - /url: https://www.eatofflimits.com/
+    - img "eatofflimits.com"
+    - text: eatofflimits.com Headless
+  - link "Baboon to the Moon (opens in a new tab)":
+    - /url: https://baboontothemoon.com/
+    - img "baboontothemoon.com"
+    - text: baboontothemoon.com Headless
+  - link "Austin Motel (opens in a new tab)":
+    - /url: https://austinmotelstore.com/
+    - img "austinmotelstore.com"
+    - text: austinmotelstore.com Theme
+  - link "Atoms (opens in a new tab)":
+    - /url: https://atoms.com/
+    - img "atoms.com"
+    - text: atoms.com Headless
+  - link "Glossier (opens in a new tab)":
+    - /url: https://www.glossier.com/
+    - img "glossier.com"
+    - text: glossier.com Custom Liquid
+  - link "Fiadh (opens in a new tab)":
+    - /url: https://fiadh.ie/
+    - img "fiadh.ie"
+    - text: fiadh.ie Theme
+  - link "Chomp (opens in a new tab)":
+    - /url: https://chompbrand.com/
+    - img "chompbrand.com"
+    - text: chompbrand.com Theme
+  - link "Drake Related (opens in a new tab)":
+    - /url: https://drakerelated.com/
+    - img "drakerelated.com"
+    - text: drakerelated.com Headless
+  - link "Spanx (opens in a new tab)":
+    - /url: https://spanx.com/
+    - img "spanx.com"
+    - text: spanx.com Custom Liquid
+  - link "GOST Books (opens in a new tab)":
+    - /url: https://gostbooks.com/
+    - img "gostbooks.com"
+    - text: gostbooks.com Theme
+  - link "Magic Spoon (opens in a new tab)":
+    - /url: https://magicspoon.com/
+    - img "magicspoon.com"
+    - text: magicspoon.com Custom Liquid
+  - link "Manors (opens in a new tab)":
+    - /url: https://manorsgolf.com/
+    - img "manorsgolf.com"
+    - text: manorsgolf.com Headless
+  - link "Spanx (opens in a new tab)":
+    - /url: https://spanx.com/
+    - img "spanx.com"
+    - text: spanx.com Custom Liquid
+  - link "GOST Books (opens in a new tab)":
+    - /url: https://gostbooks.com/
+    - img "gostbooks.com"
+    - text: gostbooks.com Theme
+  - link "Magic Spoon (opens in a new tab)":
+    - /url: https://magicspoon.com/
+    - img "magicspoon.com"
+    - text: magicspoon.com Custom Liquid
+  - link "Manors (opens in a new tab)":
+    - /url: https://manorsgolf.com/
+    - img "manorsgolf.com"
+    - text: manorsgolf.com Headless
+  - heading "Built into every store" [level=2]
+  - img "A map of the world with a stat showing 99.9% uptime"
+  - heading "Cheetah fast. Ridiculously reliable." [level=3]
+  - text: With a 99.9% uptime rate and 300 points of presence worldwide, Shopify’s infrastructure won’t leave your customers hanging.
+  - img "The Shopify checkout experience"
+  - heading "The world’s best checkout" [level=3]
+  - text: Shopify’s checkout
+  - link "converts a whole 15% better":
+    - /url: /in/enterprise/blog/shopify-checkout
+  - text: on average than other commerce platforms. Which means more sales for you.
+  - img "The Shopify Magic AI tool being used to generate a tagline"
+  - heading "Powerful AI at every turn" [level=3]
+  - text: From launching your store to managing and scaling it, boost every part of your business with
+  - link "built-in AI":
+    - /url: /in/magic
+  - text: that’s made for commerce.
+  - heading "Choose how you want to build" [level=2]
+  - button "Start with a theme Generate a store design with AI, or pick from 800+ proven themes, then customize things with our easy-to-use visual editor.":
+    - img: Add section Featured product Featured collection Slideshow Template Header Home page Featured product
+    - heading "Start with a theme" [level=3]
+    - paragraph: Generate a store design with AI, or pick from 800+ proven themes, then customize things with our easy-to-use visual editor.
+  - button "Build completely custom Create a theme from scratch, go headless with Hydrogen (Shopify’s headless stack), or choose your own stack using Shopify’s APIs. It’s totally up to you.":
+    - heading "Build completely custom" [level=3]
+    - paragraph: Create a theme from scratch, go headless with Hydrogen (Shopify’s headless stack), or choose your own stack using Shopify’s APIs. It’s totally up to you.
+  - paragraph: Shopify themes
+  - heading "Creativity meets commerce" [level=2]
+  - paragraph:
+    - text: Craft your unique brand vision on a foundation that’s built to sell, right out of the box.
+    - link "Just pick a theme":
+      - /url: https://themes.shopify.com/
+    - text: that reflects your brand, then make it your own.
+  - link "Check out more about Pitch (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/pitch
+    - text: Pitch
+  - img "Preview of Pitch, a Horizon theme with bold layouts and bright visuals, perfect for beauty, skincare, fashion or any unique brand looking to stand out."
+  - link "Check out more about Tinker (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/tinker
+    - text: Tinker
+  - img "Preview of Tinker, a Horizon theme with a crisp, clean aesthetic and modern functionality, perfect for electronics, productivity and organization, or modern home decor."
+  - link "Check out more about Heritage (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/heritage
+    - text: Heritage
+  - img "Preview of Heritage, a Horizon theme with tactile design elements that make products feel tangible online, showcasing craftsmanship and authenticity."
+  - link "Check out more about Atelier (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/atelier
+    - text: Atelier
+  - img "Preview of Atelier, a Horizon theme with a sleek, sophisticated design and luxurious product showcases that feel exclusive and lavish."
+  - link "Check out more about Ritual (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/ritual
+    - text: Ritual
+  - img "Preview of Ritual, a Horizon theme with luxurious, fashion-forward design elements that make every interaction feel exclusive and refined."
+  - link "Check out more about Fabric (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/fabric
+    - text: Fabric
+  - img "Preview of Fabric, a Horizon theme with a simple, versatile design, made to showcase big product images and lifestyle media with a minimalist chic aesthetic."
+  - link "Check out more about Dwell (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/dwell
+    - text: Dwell
+  - img "Preview of Dwell, a Horizon theme with warmth and modern elegance, perfect for home decor or any products that make a house feel like home."
+  - link "Check out more about Vessel (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/vessel
+    - text: Vessel
+  - img "Preview of Vessel, a Horizon theme with natural, understated beauty, perfect for showcasing home decor and kitchen products with a modern aesthetic and neutral tones."
+  - link "Check out more about Savor (opens in a new tab)":
+    - /url: https://themes.shopify.com/themes/savor
+    - text: Savor
+  - img "Preview of Savor, a Horizon theme with bright, open layouts that bring out the spice in your offerings and create an irresistible visual feast."
+  - separator
+  - group:
+    - button "Play video"
+    - region
+  - heading "Bring your vision to life" [level=3]
+  - paragraph: Powerful customization tools that let you nail every detail. No coding required—just your imagination.
+  - heading "Create completely bespoke blocks" [level=3]
+  - paragraph: Just say what you want in a few words and let AI build new content blocks to match your vision.
+  - group:
+    - button "Play video"
+    - region
+  - heading "Sell worldwide or wholesale" [level=3]
+  - paragraph:
+    - text: Show different products and pricing to
+    - link "international":
+      - /url: /in/international
+    - text: and
+    - link "B2B customers":
+      - /url: /in/plus/solutions/b2b-ecommerce
+    - text: with
+    - link "contextual storefronts":
+      - /url: https://help.shopify.com/enmanual/online-store/themes/customizing-themes/store-contextualization
+    - text: .
+  - group:
+    - button "Play video"
+    - region
+  - heading "Drag and drop" [level=3]
+  - paragraph: Effortlessly add pages and switch up the layout with Shopify’s online store editor.
+  - heading "The custom content customers need" [level=3]
+  - button "Across your store With metaobjects, you can add custom pages and new types of structured content (think banners, lookbooks, influencer profiles).":
+    - heading "Across your store" [level=4]
+    - paragraph: With metaobjects, you can add custom pages and new types of structured content (think banners, lookbooks, influencer profiles).
+  - button "On specific surfaces Use metafields to add specialized information (think product specs or a list of ingredients) to product listings, orders, or customer profiles.":
+    - heading "On specific surfaces" [level=4]
+    - paragraph: Use metafields to add specialized information (think product specs or a list of ingredients) to product listings, orders, or customer profiles.
+  - group:
+    - button "Play video"
+    - region
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - 'link "Klaviyo Reviews: Build 5-star experiences for your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/klaviyo-reviews
+    - img "Klaviyo Reviews Build 5-star experiences for your customers"
+  - 'link "Yotpo Product Reviews & UGC: Collect product reviews and ratings, UGC, social proof, photos (opens in a new tab)"':
+    - /url: https://apps.shopify.com/yotpo-social-reviews
+    - img "Yotpo Product Reviews & UGC Collect product reviews and ratings, UGC, social proof, photos"
+  - 'link "Shogun Landing Page Builder: Easy-to-use professional page builder for all page types (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shogun
+    - img "Shogun Landing Page Builder Easy-to-use professional page builder for all page types"
+  - 'link "Shopify Translate & Adapt: Translate and adapt your store content for every market (opens in a new tab)"':
+    - /url: https://apps.shopify.com/translate-and-adapt
+    - img "Shopify Translate & Adapt Translate and adapt your store content for every market"
+  - 'link "Judge.me Product Reviews: Product reviews with photos & videos for social proof & SEO (opens in a new tab)"':
+    - /url: https://apps.shopify.com/judgeme
+    - img "Judge.me Product Reviews Product reviews with photos & videos for social proof & SEO"
+  - 'link "Loox Product Reviews & Photos: Product reviews with photos & videos, referrals, and upsells (opens in a new tab)"':
+    - /url: https://apps.shopify.com/loox
+    - img "Loox Product Reviews & Photos Product reviews with photos & videos, referrals, and upsells"
+  - 'link "Recharge Subscriptions: Maximize revenue with subscriptions, bundles & memberships (opens in a new tab)"':
+    - /url: https://apps.shopify.com/subscription-payments
+    - img "Recharge Subscriptions Maximize revenue with subscriptions, bundles & memberships"
+  - 'link "Smile: Loyalty & Rewards: Loyalty points, rewards, and referrals to retain your customers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/smile-io
+    - 'img "Smile: Loyalty & Rewards Loyalty points, rewards, and referrals to retain your customers"'
+  - 'link "Stamped Loyalty & Referrals: Loyalty Program with rewards, referrals, points & VIP tiers (opens in a new tab)"':
+    - /url: https://apps.shopify.com/stamped-io-loyalty-rewards
+    - img "Stamped Loyalty & Referrals Loyalty Program with rewards, referrals, points & VIP tiers"
+  - 'link "Rebuy Personalization Engine: The industry-leading AI-powered personalization platform (opens in a new tab)"':
+    - /url: https://apps.shopify.com/rebuy
+    - img "Rebuy Personalization Engine The industry-leading AI-powered personalization platform"
+  - 'link "Justuno ‑ Email & SMS Pop ups: Pop ups for GDPR & cookies, banners & personalization (opens in a new tab)"':
+    - /url: https://apps.shopify.com/justuno-pop-ups-email-conversion
+    - img "Justuno ‑ Email & SMS Pop ups Pop ups for GDPR & cookies, banners & personalization"
+  - 'link "Octane AI: Advanced Quiz Maker: Have full control over your product quizzes. VIP support. (opens in a new tab)"':
+    - /url: https://apps.shopify.com/octane-ai-quiz-personalization
+    - 'img "Octane AI: Advanced Quiz Maker Have full control over your product quizzes. VIP support."'
+  - 'link "PageFly Landing Page Builder: Build persuasive landing pages easily - no coding required (opens in a new tab)"':
+    - /url: https://apps.shopify.com/pagefly
+    - img "PageFly Landing Page Builder Build persuasive landing pages easily - no coding required"
+  - 'link "Shopify Bundles: Offer fixed bundles and multipacks to drive more sales (opens in a new tab)"':
+    - /url: https://apps.shopify.com/shopify-bundles
+    - img "Shopify Bundles Offer fixed bundles and multipacks to drive more sales"
+  - 'link "Carro: Collaborative Commerce: Dropshipping, wholesale, find suppliers. All from top brands (opens in a new tab)"':
+    - /url: https://apps.shopify.com/carro
+    - 'img "Carro: Collaborative Commerce Dropshipping, wholesale, find suppliers. All from top brands"'
+  - 'link "T Lab ‑ AI Language Translate: Translate your store into multiple languages & add currencies (opens in a new tab)"':
+    - /url: https://apps.shopify.com/content-translation
+    - img "T Lab ‑ AI Language Translate Translate your store into multiple languages & add currencies"
+  - 'link "Instafeed ‑ Instagram Feed: Boost sales and trust with official Instagram shop feeds (opens in a new tab)"':
+    - /url: https://apps.shopify.com/instafeed
+    - img "Instafeed ‑ Instagram Feed Boost sales and trust with official Instagram shop feeds"
+  - 'link "Weglot ‑ Translate Your Store: Translate your store into multiple languages (opens in a new tab)"':
+    - /url: https://apps.shopify.com/weglot
+    - img "Weglot ‑ Translate Your Store Translate your store into multiple languages"
+  - 'link "Shopify Search & Discovery: Customize your storefront search and discovery experience (opens in a new tab)"':
+    - /url: https://apps.shopify.com/search-and-discovery
+    - img "Shopify Search & Discovery Customize your storefront search and discovery experience"
+  - 'link "Growave: Loyalty & Wishlist: Boost sales with loyalty rewards, referrals, wishlists, and reviews (opens in a new tab)"':
+    - /url: https://apps.shopify.com/growave
+    - 'img "Growave: Loyalty & Wishlist Boost sales with loyalty rewards, referrals, wishlists, and reviews"'
+  - heading "Do more with commerce apps" [level=3]
+  - paragraph:
+    - text: With 16000+ apps to choose from, the
+    - link "Shopify App Store":
+      - /url: https://apps.shopify.com/
+    - text: has whatever extras your store needs—from
+    - link "added features":
+      - /url: https://apps.shopify.com/categories/store-design
+    - text: to
+    - link "custom product options":
+      - /url: https://apps.shopify.com/categories/selling-products
+    - text: .
+  - heading "Plus all the features you need, right out of the box" [level=3]
+  - button "The world’s best-converting checkout" [expanded]:
+    - heading "The world’s best-converting checkout" [level=3]
+  - region "The world’s best-converting checkout":
+    - text: Powered by the best checkout in the world, Shopify converts shoppers into buyers 15% better on average than other platforms.
+    - group:
+      - button "Play video"
+      - region
+  - button "AI tools":
+    - heading "AI tools" [level=3]
+  - region "AI tools":
+    - text: AI helps you create a custom store in seconds and customize it. Sidekick, your AI assistant, helps with everything from setup to scaling your business to generating images and marketing copy.
+    - group:
+      - button "Play video"
+      - region
+  - button "Videos and 3D models":
+    - heading "Videos and 3D models" [level=3]
+  - region "Videos and 3D models":
+    - text: Help shoppers imagine how your products fit into their lives with videos, 3D visualization tools, and other rich media.
+    - group:
+      - button "Play video"
+      - region
+  - button "Search and filtering":
+    - heading "Search and filtering" [level=3]
+  - region "Search and filtering":
+    - text: Give your customers an easy way to find exactly what they’re looking for.
+    - group:
+      - button "Play video"
+      - region
+  - button "Languages and currencies":
+    - heading "Languages and currencies" [level=3]
+  - region "Languages and currencies":
+    - text: Let customers select which country and what currency they’re shopping in.
+    - group:
+      - button "Play video"
+      - region
+  - button "Product recommendations":
+    - heading "Product recommendations" [level=3]
+  - region "Product recommendations":
+    - text: Encourage customers to fill their carts by recommending more products they’ll love.
+    - group:
+      - button "Play video"
+      - region
+  - button "Fast and accessible":
+    - heading "Fast and accessible" [level=3]
+  - region "Fast and accessible":
+    - text: Shopify stores are optimized for speed and accessibility, so everyone can shop and nobody has to wait.
+    - group:
+      - button "Play video"
+      - region
+  - button "Mobile-ready":
+    - heading "Mobile-ready" [level=3]
+  - region "Mobile-ready":
+    - text: Everything’s designed responsively, so things look good no matter what device customers use to visit your store.
+    - group:
+      - button "Play video"
+      - region
+  - heading "Ready to get going?" [level=2]
+  - link "Start free trial":
+    - /url: https://accounts.shopify.com/store-create?locale=en-IN&language=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Fin%2Fonline&signup_types%5B%5D=paid_trial_experience
+  - paragraph: Custom options
+  - heading "Anything you want to build, you can" [level=2]
+  - 'img "2 screens: a sample of Liquid code, and the Shopify online store editor"'
+  - 'img "3 screens: a sample of Hydrogen code, a command-line interface, and a website built on Hydrogen"'
+  - link "OPT /01 Go Liquid Get the best of both worlds. Build your own one-of-a-kind store in no time with Liquid, then leave the rest to us.":
+    - /url: "#liquid"
+    - text: OPT /01
+    - heading "Go Liquid" [level=3]
+    - text: Get the best of both worlds. Build your own one-of-a-kind store in no time with Liquid, then leave the rest to us.
+  - link "OPT /02 Go headless Get full control. Tap into Shopify's APIs and developer tools to build your own bespoke store, integrated with your preferred stack.":
+    - /url: "#headless"
+    - text: OPT /02
+    - heading "Go headless" [level=3]
+    - text: Get full control. Tap into Shopify's APIs and developer tools to build your own bespoke store, integrated with your preferred stack.
+  - paragraph: Go Liquid
+  - heading "Create a store as unique as your brand. Leave the maintenance to us." [level=3]
+  - img "The Shopify theme editor, including theme.liquid code"
+  - heading "Build fast and easy" [level=3]
+  - paragraph:
+    - text: With
+    - link "Liquid":
+      - /url: https://shopify.dev/docs/api/liquid
+    - text: ", Shopify’s supercharged templating language, you can quickly create a custom store with the exact look and feel you need. And it works right alongside old faves like HTML, CSS, JavaScript, and JSON."
+  - img "Site-loading speed score, up-time status, and compliance verification"
+  - heading "Speed. Security. Reliability." [level=3]
+  - paragraph: Monitoring uptime, optimizing for speed, keeping bots at bay—we handle it all. So whether you’re doing a big drop or launching in a new country, you know your store is safe, reliable, and running fast.
+  - img "Multiple collaborators using Liquid and the Shopify online store editor to build a store together"
+  - heading "An editor everyone can use" [level=3]
+  - paragraph: Let each team do what they do best. Any team can edit content, launch landing pages, and even update the design. Which leaves your developers free to focus on the big stuff. No bottlenecks. No gatekeeping.
+  - heading "Ready to roll your own theme?" [level=2]
+  - 'link "External source: Use Shopify CLI (Opens in a new window)"':
+    - /url: https://shopify.dev/docs/storefronts/themes/tools/cli
+    - text: Use Shopify CLI
+  - paragraph: Go headless
+  - heading "Choose your own stack" [level=2]
+  - paragraph: Get exactly the store your business needs. With the flexibility to use tech you already love.
+  - img "Chart showing how Shopify’s Storefront API works with any commerce tech stack"
+  - 'img "2 screens: a sample of Hydrogen code, and a command-line interface running Hydrogen"'
+  - img "An online store being deployed on Oxygen"
+  - heading "Battle-hardened APIs" [level=3]
+  - paragraph: Shopify’s Storefront API serves millions of queries and is deployed globally at the edge. So customers around the world experience snappy load speeds, no matter what device they shop on. And with no rate limits, you can run big sales events without throttling or unexpected bills.
+  - link "Open Dig into the docs in new tab":
+    - /url: https://shopify.dev/custom-solutions
+    - text: Dig into the docs
+  - heading "Launch a headless site in half the time with Hydrogen" [level=3]
+  - paragraph: Fast-track development with Hydrogen, Shopify’s React-based toolkit. Skip the setup with flexible UI components, hooks, and utilities—all optimized for commerce and preconfigured to work with Shopify’s APIs.
+  - link "Open More about Hydrogen in new tab":
+    - /url: https://hydrogen.shopify.dev/
+    - text: More about Hydrogen
+  - heading "Host for free on Oxygen" [level=3]
+  - paragraph: Instantly deploy your Hydrogen store using Oxygen, our free global hosting solution, which is available on all Shopify plans except Starter. Or host with your preferred provider.
+  - link "Open More about Oxygen in new tab":
+    - /url: https://shopify.dev/docs/custom-storefronts/oxygen
+    - text: More about Oxygen
+  - heading "Ready to go custom?" [level=2]
+  - link "Reach out":
+    - /url: "#contact-sales"
+  - link "Get started with docs (Opens in a new window)":
+    - /url: https://shopify.dev/docs/custom-storefronts
+    - text: Get started with docs
+  - heading "Join millions of merchants on Shopify" [level=2]
+  - paragraph: All kinds of businesses. All kinds of stores. All built to sell.
+  - region "Testimonials":
+    - group "Navigate testimonials":
+      - button "Previous Testimonial" [disabled]
+      - button "Play Testimonial"
+      - button "Next Testimonial"
+    - group "1 of 3":
+      - img "Emily Miller, CEO and founder of OffLimits"
+      - blockquote:
+        - paragraph: Shopify allowed us to build the most playful customer experiences while maintaining complete control of our development process.
+        - paragraph: OffLimits Cereal
+        - strong: Emily Miller, CEO / Founder
+  - heading "Build your store on Shopify" [level=2]
+  - link "Start free trial":
+    - /url: https://accounts.shopify.com/store-create?locale=en-IN&language=en&signup_page=https%3A%2F%2Fwww.shopify.com%2Fin%2Fonline&signup_types%5B%5D=paid_trial_experience
+- contentinfo:
+  - link "Shopify":
+    - /url: /in
+    - img "Shopify"
+  - heading "Shopify" [level=2]
+  - list:
+    - listitem:
+      - link "About":
+        - /url: /in/about
+    - listitem:
+      - 'link "External source: Investors"':
+        - /url: https://shopifyinvestors.com/home/default.aspx
+        - text: Investors
+    - listitem:
+      - link "Partners":
+        - /url: /in/partners
+    - listitem:
+      - link "Affiliates":
+        - /url: /in/affiliates
+    - listitem:
+      - link "Legal":
+        - /url: /in/legal
+    - listitem:
+      - 'link "External source: Service status"':
+        - /url: https://www.shopifystatus.com/
+        - text: Service status
+  - heading "Support" [level=2]
+  - list:
+    - listitem:
+      - 'link "External source: Merchant Support"':
+        - /url: https://help.shopify.com/en/questions
+        - text: Merchant Support
+    - listitem:
+      - 'link "External source: Shopify Help Center"':
+        - /url: https://help.shopify.com/en/
+        - text: Shopify Help Center
+    - listitem:
+      - 'link "External source: Hire a Partner"':
+        - /url: https://www.shopify.com/partners/directory
+        - text: Hire a Partner
+    - listitem:
+      - 'link "External source: Shopify Academy"':
+        - /url: https://www.shopifyacademy.com/?itcat=brochure&itterm=global-footer
+        - text: Shopify Academy
+    - listitem:
+      - 'link "External source: Shopify Community"':
+        - /url: https://community.shopify.com/?utm_campaign=footer&utm_content=en-in&utm_medium=web&utm_source=shopify
+        - text: Shopify Community
+  - heading "Developers" [level=2]
+  - list:
+    - listitem:
+      - 'link "External source: Shopify.dev"':
+        - /url: https://shopify.dev
+        - text: Shopify.dev
+    - listitem:
+      - 'link "External source: API Documentation"':
+        - /url: https://shopify.dev/api
+        - text: API Documentation
+    - listitem:
+      - 'link "External source: Dev Degree"':
+        - /url: https://devdegree.ca
+        - text: Dev Degree
+  - heading "Products" [level=2]
+  - list:
+    - listitem:
+      - link "Shopify Plus":
+        - /url: /in/plus
+    - listitem:
+      - link "Shopify for Enterprise":
+        - /url: /in/enterprise
+  - heading "Global Impact" [level=2]
+  - list:
+    - listitem:
+      - link "Sustainability":
+        - /url: /in/climate
+    - listitem:
+      - 'link "External source: Build Black"':
+        - /url: https://operationhope.org/initiatives/1-million-black-businesses/
+        - text: Build Black
+    - listitem:
+      - link "Accessibility":
+        - /url: /in/accessibility
+  - heading "Solutions" [level=2]
+  - list:
+    - listitem:
+      - link "Online Store Builder":
+        - /url: /in/online
+    - listitem:
+      - link "Website Builder":
+        - /url: /in/website/builder
+    - listitem:
+      - link "Ecommerce Website":
+        - /url: /in/tour/ecommerce-website
+  - 'button "Region Navigation. Current: India"': India | English
+  - list:
+    - listitem:
+      - link "Terms of service":
+        - /url: /in/legal/terms
+    - listitem:
+      - link "Privacy policy":
+        - /url: /in/legal/privacy
+    - listitem:
+      - link "Sitemap":
+        - /url: /in/sitemap
+    - listitem:
+      - 'link "External source: Privacy Choices"':
+        - /url: https://privacy.shopify.com/en
+        - text: Privacy Choices
+  - list:
+    - listitem:
+      - 'link "External source: Facebook (Opens in a new window)"':
+        - /url: https://www.facebook.com/shopify
+        - img
+    - listitem:
+      - 'link "External source: Twitter (Opens in a new window)"':
+        - /url: https://twitter.com/shopify
+        - img
+    - listitem:
+      - 'link "External source: YouTube (Opens in a new window)"':
+        - /url: https://www.youtube.com/user/shopify
+        - img
+    - listitem:
+      - 'link "External source: Instagram (Opens in a new window)"':
+        - /url: https://www.instagram.com/shopify/
+        - img
+    - listitem:
+      - 'link "External source: TikTok (Opens in a new window)"':
+        - /url: https://www.tiktok.com/@shopify
+        - img
+    - listitem:
+      - 'link "External source: LinkedIn (Opens in a new window)"':
+        - /url: https://www.linkedin.com/company/shopify
+        - img
+    - listitem:
+      - 'link "External source: Pinterest (Opens in a new window)"':
+        - /url: https://www.pinterest.com/shopify/
+        - img
+```

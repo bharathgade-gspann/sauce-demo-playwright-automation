@@ -9,11 +9,11 @@ export class LoginPage {
     await this.page.goto('https://sauce-demo.myshopify.com/account/login');
   }
 
-  async isLoginHeadingVisible() { 
+  async isLoginHeadingVisible() {
     return await this.loginHeadingLoc.isVisible();
   }
 
-  async clickForgotPasswordLink() { 
+  async clickForgotPasswordLink() {
     await this.forgotPassLoc.click();
   }
 }
