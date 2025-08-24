@@ -9,7 +9,7 @@ import { CatalogPage } from '../pages/CatalogPage';
 import { blogsPage } from '../pages/blogsPage';
 import { CartPage } from '../pages/cartPage';
 import { FootersPage } from '../pages/footerPage';
-
+import { navigationCatalogPage } from '../pages/navigationCatalogpage';
 
 export const test = base.extend({
   loginPage: async ({ page }, use) => {
@@ -48,9 +48,11 @@ export const test = base.extend({
   footerpage: async ({ page }, use) => {
     await use(new FootersPage(page));
 
-  }
+  },
 
-},
-);
+  navigationcatalogPage: async ({ page }, use) => {
+    await use(new navigationCatalogPage(page));
+  },
+});
 
 export { expect } from '@playwright/test';
