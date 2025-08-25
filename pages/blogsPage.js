@@ -4,14 +4,15 @@
 export class blogsPage {
     constructor(page) {
         this.page = page
-        this.blogslinkLoc = page.getByRole('link', { name: 'Blog' })
         this.firstPostLink = page.locator("//a[contains(text(),'First Post')]")
         this.ecommerceblogLink = page.getByRole('link', { name: 'ecommerce blog' })
+        this.ecommerceTemplateheading = page.getByRole('heading', { name: 'Ecommerce Website Design:' })
         this.ecommerceTemplateLink = page.getByRole('link', { name: 'ecommerce template' })
         this.ecommercehostingLink = page.getByRole('link', { name: 'ecommerce hosting' })
+        this.ecommercehostingheading = page.getByRole('heading', { name: 'Best Ecommerce Hosting Solutions in 2025' })
         this.cartSoftwareLink = page.locator("//a[text()='shopping cart software']")
         this.pinterestSaveButton = page.getByRole('link', { name: 'Save' })
-        this.shopifyLink = page.getByRole('link', { name: 'Shopify', exact: true })
+        this.shopifyLink = page.locator("//a[text()='Shopify']")
         this.adminLink = page.getByRole('link', { name: 'admin area' })
         this.sellOnlineLink = page.getByRole('link', { name: 'sell online' })
         this.backtoPost = page.getByRole('link', { name: 'Back to posts' })
@@ -19,50 +20,51 @@ export class blogsPage {
     }
 
 
-
-
-
     async launchToSauceDemo() {
 
         await this.page.goto('https://sauce-demo.myshopify.com/blogs/news');
     }
-
-
     async openFirstPost() {
         await this.firstPostLink.click();
     }
 
-
-
     async openEcommerceLink() {
-        return this.ecommerceblogLink.click()
+        await this.ecommerceblogLink.click()
     }
 
     async openTemplateLink() {
-        return this.ecommerceTemplateLink.click()
+        await this.ecommerceTemplateLink.click()
+    }
+
+    async isecommerceTemplatevisible() {
+        return await this.ecommerceTemplateheading.isVisible()
     }
 
     async openHostingLink() {
-        return this.ecommercehostingLink.click()
+        await this.ecommercehostingLink.click()
+    }
+
+    async isecommercehostingvisible() {
+        return await this.ecommercehostingheading.isVisible()
     }
 
     async openCartSoftwareLink() {
-        return this.cartSoftwareLink.click()
+        await this.cartSoftwareLink.click()
     }
-    
+
     async openPinterestSaveButton() {
-        return this.pinterestSaveButton.click()
+        await this.pinterestSaveButton.click()
     }
 
     async openShopifyLink() {
-        return this.shopifyLink.click()
+        await this.shopifyLink.click()
     }
 
     async OpenSellOnlineLink() {
-        return this.sellOnlineLink.click()
+        await this.sellOnlineLink.click()
     }
     async clickonBackPost() {
-        return this.backtoPost.click()
+        await this.backtoPost.click()
     }
 
 

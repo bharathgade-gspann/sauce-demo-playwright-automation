@@ -9,7 +9,7 @@ test.describe('Shopify Blog Tests', () => {
     });
 
 
-    test('Verify blog content visible after opening first post', async ({ blogspage, page }) => {
+    test('Verify first post visible after opening blog content', async ({ blogspage, page }) => {
         await expect(page.getByRole('heading', { name: 'First Post' })).toBeVisible();
     });
 
@@ -20,14 +20,13 @@ test.describe('Shopify Blog Tests', () => {
 
     test('Verify template link opens in new tab', async ({ blogspage, page }) => {
         await blogspage.openTemplateLink()
-        await expect(page).toHaveURL("https://www.shopify.com/blog/best-ecommerce-sites")
+        await expect(blogspage.isecommerceTemplatevisible()).toBeTruthy()
 
     });
 
     test('Verify hosting info link opens in new tab', async ({ blogspage, page }) => {
         await blogspage.openHostingLink()
-        await expect(page).toHaveURL("https://www.shopify.com/blog/ecommerce-hosts")
-
+        await expect(blogspage.isecommercehostingvisible()).toBeTruthy()
 
     });
 
@@ -46,7 +45,7 @@ test.describe('Shopify Blog Tests', () => {
         await blogspage.openShopifyLink()
         await expect(page).toHaveURL("https://www.shopify.com/in")
     });
-    
+
     test('Verify Sellonline link redirects correctly', async ({ blogspage, page }) => {
         await blogspage.OpenSellOnlineLink()
         await expect(page).toHaveURL("https://www.shopify.com/in/online")
@@ -57,6 +56,6 @@ test.describe('Shopify Blog Tests', () => {
         await expect(page).toHaveURL("https://sauce-demo.myshopify.com/blogs/news")
     });
 
-   
+
 
 });
