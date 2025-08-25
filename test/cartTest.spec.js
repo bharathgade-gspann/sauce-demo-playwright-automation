@@ -1,5 +1,7 @@
 import { test, expect, homePage, CartPage } from './fixtures.js'
 
+//done by Rohan Singh
+
 test('is the cart empty message visible', async ({ CartPage, homePage }) => {
     await homePage.navigateToHome()
     await CartPage.clickCartIcon()
@@ -13,7 +15,7 @@ test('is the grey shirt added to the cart', async ({ CartPage, homePage, page })
     await CartPage.clickCartIcon()
     await page.reload()
     await CartPage.clickCartIcon()
-    //  const text = await page.getByText('                     Grey jacket - Grey jacket                                                            - Grey jacket                                                        ').textContent();
+
     const text = await page.getByText('Grey jacket - Grey jacket - Grey jacket').textContent();
 
     await expect(text.replace(/\s+/g, ' ').trim()).toContain("Grey jacket - Grey jacket - Grey jacket");
@@ -82,7 +84,7 @@ test('verify the cart item count when user remove the products', async ({ homePa
     await page.reload()
     await CartPage.clickCartIcon()
     await CartPage.clickRemoveProductFromCartBtn()
-    
+
     const cartText = await page.locator('#cart-target-desktop').textContent();
     expect(cartText?.trim()).toBe('(0)');
 })

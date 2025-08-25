@@ -22,33 +22,33 @@ export class CartPage {
         await this.cartIconLoc.click()
     }
 
-    async emptyCardMessageIsVisible(){
+    async emptyCardMessageIsVisible() {
         return await this.emptyCardMessage.isVisible()
     }
-    async addGreyShirtInCart(){
+    async addGreyShirtInCart() {
         await this.greyJacketImageLoc.click()
     }
-    async clickAddToCartBtn(){
+    async clickAddToCartBtn() {
         await this.addToCartBtn.click()
     }
 
-    async clickNoirJacketImg(){
+    async clickNoirJacketImg() {
         await this.noirJacketImgLoc.click()
     }
 
-    async getProductQuantityCount(){
+    async getProductQuantityCount() {
         return await this.cartProductQtyLoc.inputValue()
     }
 
-    async clickRemoveProductFromCartBtn(){
+    async clickRemoveProductFromCartBtn() {
         await this.removeBtnLoc.click()
     }
 
-    async clickCheckOutBtn(){
+    async clickCheckOutBtn() {
         await this.checkOutBtnLoc.click()
     }
 
-    async getCartQtyCount(){
+    async getCartQtyCount() {
         return await this.cartQtyCountLoc.count()
     }
 

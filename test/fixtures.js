@@ -41,7 +41,8 @@ export const test = base.extend({
     await use(new CatalogPage(page));
   },
 
-    CartPage: async ({ page }, use) => {
+  //Author - Rohan Singh
+  CartPage: async ({ page }, use) => {
     await use(new CartPage(page))
   }
 
